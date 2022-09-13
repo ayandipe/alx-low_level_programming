@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * Print-alphabet - Entry point
- * Description: A function to print alphabet.
+ * print_alphabet - A function that prints alphabet, lowercase.
  * Return: void (success)
  */
+
 void print_alphabet(void)
 {
 	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
