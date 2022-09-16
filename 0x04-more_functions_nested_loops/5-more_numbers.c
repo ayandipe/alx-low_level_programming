@@ -6,10 +6,10 @@
 void more_numbers(void)
 {
 	int n = 48;
-	int l = 0;
+	int i = 0;
 	int reset = 0;
 
-	while (1 < 10)
+	while (i < 10)
 	{
 		while (n <= 62)
 		{
@@ -23,7 +23,7 @@ void more_numbers(void)
 		}
 		n = 48;
 		reset = 0;
-		l++;
+		i++;
 		_putchar(10);
 	}
 }
