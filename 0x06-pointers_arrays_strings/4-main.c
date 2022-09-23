@@ -1,15 +1,16 @@
 #include "main.h"
 #include <stdio.h>
-/*
- * main - Check the code
- * @a: An array of integers
- * @n: The number of elements to swap
- * Return: Nothing.
+/**
+ * main - check the code
+ * @a: an array of integers
+ * @n: the number of elements to swa
+ * Return: nothing.
  */
+
 void print_array(int *a, int n)
 {
 	int i;
-	
+
 	i = 0;
 	while (i < n)
 	{
@@ -22,7 +23,7 @@ void print_array(int *a, int n)
 	}
 	printf("\n");
 }
-/*
+/**
  * main - Check the code
  * Return: Always 0.
  */
@@ -30,7 +31,7 @@ void print_array(int *a, int n)
 int main(void)
 {
 	int a[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 98, 1024, 1337};
-	
+
 	print_array(a, sizeof(a) / sizeof(int));
 	reverse_array(a, sizeof(a) / sizeof(int));
 	print_array(a, sizeof(a) / sizeof(int));
